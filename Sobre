@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style_2.css">
+
+    <title>Sobre</title>
+</head>
+<body>
+<div id="principal">
+        <!-- Inicio Header -->
+        <div class="header">
+            <div class="container">
+                <h1> <span class="text-orange">Projeto</span>  IoT Revolucionário</h1>
+                <ul>
+                    <li><a href="index.html" >Home</a> </li>
+                    <li><a href="sobre.html"class="text-orange">Sobre</a> </li>
+                    <li><a href="">Contato</a> </li>
+                    <li><a href="">Login</a> </li>
+                </ul>
+            </div>
+        </div>
+        
+<div id="assuntos"> <!-- INICIO DOS ASSUNTOS -->
+
+            <span class="box1">
+                <h1>Assunto 1</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis sequi ducimus optio aliquid expedita, eveniet, at molestias delectus animi sunt laudantium quibusdam porro fuga dolor, perspiciatis nemo qui perferendis nisi.</p>
+        
+            </span>
+            <span class="box2">
+                <h1>Assunto 2</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis sequi ducimus optio aliquid expedita, eveniet, at molestias delectus animi sunt laudantium quibusdam porro fuga dolor, perspiciatis nemo qui perferendis nisi.</p>
+            </span>
+        </div> <!-- FIM DOS ASSUNTOS -->
+
+<div id="equipe"> <!-- INICIO DA EQUIPE --> 
+    
+        <h1 class="tituloTime">NOSSO TIME</h1>
+            <ul>
+                <li><img src="Integrante.png" alt=""> <br> Nome do integrante</li>
+                <li><img src="Integrante.png" alt=""> <br> Nome do integrante</li>
+                <li><img src="Integrante.png" alt=""> <br> Nome do integrante</li>
+            </ul>
+    
+        </div> <!-- FIM DA EQUIPE -->
+
+<div id="assunto3"> <!-- INICIO ASSUNTO 3 -->
+<h1>Assunto 3</h1>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, incidunt totam porro repellat molestiae sed deleniti pariatur eum! Facere voluptate atque laborum dolores assumenda sunt, deleniti natus odit dolorem provident.</p>
+</div>
+
+
+</div>
+
+</body>
+</html>
