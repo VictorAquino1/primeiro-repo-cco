@@ -1,0 +1,140 @@
+/* GERAL */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #BDBDBD;
+  }
+  #principal{
+    text-align: center;
+
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .btn-orange{
+      background-color: orangered;
+      border: none;
+      padding: 10px;
+      font-weight: bold;
+      color: white;
+      border-radius: 5px;
+  }
+  
+  /* INICIO ESTILO HEADER */
+  .header {
+    background-color: #232323;
+    width: 100%;
+    height: 80px;
+    border-bottom: solid orangered 3px;
+  }
+  
+  .header h1 {
+    float: left;
+    color: white;
+  }
+  
+  .header ul {
+    /* Tira as 'bolinhas' da lista */
+    list-style: none;
+    float: right;
+  }
+  
+  .header h1,
+  .header ul {
+    margin-top: 20px;
+  }
+  
+  .header li {
+    /* coloca os elementos <li> na mesma linha como blocos */
+    display: inline-block;
+  
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #444444;
+  }
+  
+  .header ul li a {
+    /* Tira o estilo de 'link' */
+    text-decoration: none;
+    color: white;
+  }
+  
+  .header .text-orange {
+    color: orangered;
+    font-weight: bold;
+  }
+
+  /* INICIO DO CONTEUDO SOBRE */
+ 
+  /* INICIO DO ASSUNTO */
+ .box1{
+     background-color: white;
+     width: 600px;
+     height: 200px;
+     float: left;
+     text-align: center;
+     margin: 20px;
+     border-bottom: solid orangered 3px;
+ }
+ .box2{
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    float: right;
+    text-align: center;
+    margin: 20px;
+    border-bottom: solid orangered 3px;
+ }
+ .assuntos{
+     background-color: #BDBDBD;
+ }
+/* FIM DO ASSUNTO */
+/* INICIO EQUIPE */
+#equipe{
+  background-color: #232323;
+  width: 100%;
+  height: 250px;
+  margin: 300px 0px 30px 0px ;
+  
+}
+img{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 20px;
+}
+.lista{
+  list-style: none;
+  display: inline-block;
+  width: 20%;
+  height: 100px;
+  padding: 10px;
+}
+
+ul li {
+  display: inline-block;
+
+}
+.tituloTime{
+  font-weight: bold;
+  color: white;
+}
+/* FIM DA EQUIPE */
+ /* INICIO ASSUNTOS 3 */
+#assunto3{
+  background-color: white;
+  width: 800px;
+  height: 100px;
+  padding: 20px;
+  margin: auto ;
+  text-align: center;
+  border-bottom: solid orangered 3px;
+}
